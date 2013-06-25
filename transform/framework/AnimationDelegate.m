@@ -36,8 +36,8 @@
 
 #import "AnimationDelegate.h"
 #import <QuartzCore/QuartzCore.h>
-#import "GenericAnimationView.h"
 #import "AnimationFrame.h"
+#import "UIView+GenericAnimation.h"
 
 @implementation AnimationDelegate
 

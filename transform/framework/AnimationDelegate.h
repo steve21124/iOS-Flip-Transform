@@ -36,8 +36,6 @@
 
 #import <Foundation/Foundation.h>
 
-@class GenericAnimationView;
-
 typedef enum {
     kSequenceAuto,         // animation continues without input, looping through image data
     kSequenceTriggered,       // animation executes once per input, input during execution is ignored
@@ -69,7 +67,7 @@ typedef enum {
     float oldOpacityValue;
 }
 
-@property (nonatomic, assign) GenericAnimationView *transformView;
+@property (nonatomic, assign) UIView *transformView;
 @property (nonatomic, assign) id controller;
 
 // the duration of the next animation cycle
